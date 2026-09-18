@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-label="Millet seed file illustration">
+  <defs>
+    <linearGradient id="bg3" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#edf6cb"/>
+      <stop offset="100%" stop-color="#b7d38f"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" fill="url(#bg3)"/>
+  <g opacity="0.95">
+    <path d="M136 420 C220 310, 250 210, 300 152 C390 240, 410 324, 438 420 Z" fill="#4e8f67"/>
+    <path d="M352 430 C430 305, 462 220, 520 165 C610 245, 638 332, 665 430 Z" fill="#6aa56d"/>
+    <path d="M586 430 C660 318, 708 256, 770 162 C832 240, 850 338, 868 430 Z" fill="#487d5b"/>
+  </g>
+  <g fill="#f3d778">
+    <ellipse cx="210" cy="235" rx="18" ry="34"/>
+    <ellipse cx="470" cy="225" rx="22" ry="38"/>
+    <ellipse cx="690" cy="215" rx="20" ry="36"/>
+  </g>
+</svg>

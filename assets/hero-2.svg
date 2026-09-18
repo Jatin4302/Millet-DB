@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-label="Millet leaf detail illustration">
+  <defs>
+    <linearGradient id="bg2" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#dfe9bf"/>
+      <stop offset="100%" stop-color="#98b77d"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" fill="url(#bg2)"/>
+  <g stroke="#2d5e4e" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.9">
+    <path d="M130 470 C200 370, 255 260, 290 120"/>
+    <path d="M280 470 C350 360, 390 255, 440 110"/>
+    <path d="M440 470 C510 350, 560 258, 610 120"/>
+    <path d="M610 470 C690 350, 728 258, 780 120"/>
+  </g>
+  <g fill="#f1b661" opacity="0.9">
+    <circle cx="250" cy="200" r="10"/>
+    <circle cx="420" cy="170" r="12"/>
+    <circle cx="580" cy="190" r="11"/>
+    <circle cx="740" cy="170" r="12"/>
+  </g>
+</svg>

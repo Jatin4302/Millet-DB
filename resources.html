@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A curated toolkit for Finger millet genomics and crop improvement research.">
+    <title>Research Tools | EleuSSR</title>
+    <link rel="stylesheet" href="css/style.css?v=20260914-final14">
+    <link rel="icon" href="assets/logo-transparent.png" type="image/png">
+</head>
+<body class="page-resources">
+    <header class="site-header">
+        <div class="brand-logos" aria-label="EleuSSR partner logos">
+            <img src="assets/logo-transparent.png" alt="EleuSSR logo">
+            <span class="brand-divider" aria-hidden="true"></span>
+            <img src="assets/Logo2.png" alt="RPCAU logo">
+        </div>
+        <div class="brand-banner">
+            <a class="brand" href="home.html" aria-label="ELEUSSR home"><h1>ELEUSSR</h1><p>Finger Millet Simple Sequence Repeat Database</p></a>
+            <a class="header-action" href="search.html"><span aria-hidden="true"></span>Explore database <span aria-hidden="true">&#8599;</span></a>
+        </div>
+        <div class="nav-row">
+            <nav class="site-nav" aria-label="Primary navigation">
+                <a href="home.html"><span class="material-symbols-outlined nav-icon" aria-hidden="true">home</span>Home</a><a href="search.html"><span class="material-symbols-outlined nav-icon" aria-hidden="true">search</span>Database</a><div class="nav-tool-dropdown"><a class="active" href="resources.html" aria-haspopup="true"><span class="material-symbols-outlined nav-icon" aria-hidden="true">build</span>Research tools</a><div class="nav-tool-menu" aria-label="Toolbox links"><a href="resources.html#tool-blast">NCBI BLAST</a><a href="resources.html#tool-jbrowse">JBrowse</a><a href="resources.html#tool-phytosome">Phytosome</a><a href="resources.html#tool-pfam">Pfam</a><a href="resources.html#tool-np-conversion">N-P conversion tool</a><a href="resources.html#tool-wolf-psort">Wolf PSORT</a><a href="resources.html#tool-epcr">ePCR</a><a href="resources.html#tool-misa">MISA</a><a href="resources.html#tool-kegg">KEGG</a><a href="resources.html#tool-mapman">MapMan</a><a href="resources.html#tool-chopchop">ChopChop</a></div></div><a href="about.html"><span class="material-symbols-outlined nav-icon" aria-hidden="true">groups</span>About</a><a href="contact.html"><span class="material-symbols-outlined nav-icon" aria-hidden="true">mail</span>Contact</a>
+            </nav>
+            <div class="accessibility-toolbar" aria-label="Accessibility tools">
+                <div class="font-controls" aria-label="Text size controls">
+                    <button type="button" class="font-control" data-font-size="small" aria-label="Decrease text size" aria-pressed="false">A-</button>
+                    <button type="button" class="font-control is-active" data-font-size="normal" aria-label="Reset text size" aria-pressed="true">A</button>
+                    <button type="button" class="font-control" data-font-size="large" aria-label="Increase text size" aria-pressed="false">A+</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main id="top" class="page-main">
+        <section class="page-hero"><p class="eyebrow"><span></span> Research toolkit</p><h1>Move from sequence to insight.</h1><p>Curated resources supporting sequence analysis, genome exploration and functional interpretation.</p></section>
+        <section class="tools-workspace" aria-label="Genomics tools">
+            <nav class="tools-toolbar" aria-label="Tool shortcuts">
+                <button id="tool-blast" class="tool-tab is-active" type="button" data-tool-target="blast"><strong>BL</strong><span>BLAST</span></button>
+                <button id="tool-jbrowse" class="tool-tab" type="button" data-tool-target="jbrowse"><strong>JB</strong><span>JBrowse</span></button>
+                <button id="tool-phytosome" class="tool-tab" type="button" data-tool-target="phytosome"><strong>PH</strong><span>Phytosome</span></button>
+                <button id="tool-pfam" class="tool-tab" type="button" data-tool-target="pfam"><strong>PF</strong><span>Pfam</span></button>
+                <button id="tool-np-conversion" class="tool-tab" type="button" data-tool-target="np-conversion"><strong>NP</strong><span>N-P conversion</span></button>
+                <button id="tool-wolf-psort" class="tool-tab" type="button" data-tool-target="wolf-psort"><strong>WP</strong><span>Wolf PSORT</span></button>
+                <button id="tool-chopchop" class="tool-tab" type="button" data-tool-target="chopchop"><strong>CH</strong><span>ChopChop</span></button>
+                <button id="tool-epcr" class="tool-tab" type="button" data-tool-target="epcr"><strong>EP</strong><span>ePCR</span></button>
+                <button id="tool-misa" class="tool-tab" type="button" data-tool-target="misa"><strong>MI</strong><span>MISA</span></button>
+                <button id="tool-kegg" class="tool-tab" type="button" data-tool-target="kegg"><strong>KE</strong><span>KEGG</span></button>
+                <button id="tool-mapman" class="tool-tab" type="button" data-tool-target="mapman"><strong>MP</strong><span>MapMan</span></button>
+            </nav>
+            <div class="tools-panel">
+                <div class="tool-panel-heading"><div><p class="page-kicker">Selected tool</p><h2 data-tool-title>NCBI BLAST</h2></div><a class="primary-button" data-tool-open href="https://blast.ncbi.nlm.nih.gov/Blast.cgi" target="_blank" rel="noopener"><span class="material-symbols-outlined ui-icon" aria-hidden="true">open_in_new</span>Open tool <span aria-hidden="true">↗</span></a></div>
+                <p class="tool-description" data-tool-description>Compare nucleotide or protein sequences against curated NCBI databases.</p>
+                <div class="tool-embed-frame"><div class="tool-embed-placeholder"><strong data-tool-short-title>BLAST</strong><span>External tools may restrict embedded views.</span><a class="text-link" data-tool-open href="https://blast.ncbi.nlm.nih.gov/Blast.cgi" target="_blank" rel="noopener">Launch in a new tab →</a></div><iframe title="Selected genomics tool" data-tool-frame src="https://blast.ncbi.nlm.nih.gov/Blast.cgi" loading="lazy"></iframe></div>
+            </div>
+        </section>
+        <section class="content-block tools-note"><div><p class="page-kicker">Workflow</p><h2>Search, design, verify.</h2></div><div><p>Start with the local database search, then use a specialist tool to validate a candidate, inspect a domain, explore a plant genome, design guides, or check primer amplification.</p><p>Tool providers control their own availability and embedding policies. Use the launch button whenever a provider prevents an inline preview.</p></div></section>
+    </main>
+    <footer><span>EleuSSR · Finger millet Simple Sequence Repeat Database</span><span><a href="about.html">Built for Finger millet improvement research</a></span></footer>
+    <a class="go-top" href="#top" aria-label="Go to top"><span class="material-symbols-outlined" aria-hidden="true">arrow_upward</span></a>
+    <script src="js/script.js?v=20260914-final12"></script>
+</body>
+</html>

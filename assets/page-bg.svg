@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" role="img" aria-label="Millet field background">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#dfe9bb"/>
+      <stop offset="100%" stop-color="#d8e3a9"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#2d5e4e"/>
+      <stop offset="100%" stop-color="#1a3d33"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1200" fill="url(#sky)"/>
+  <rect y="700" width="1600" height="500" fill="url(#ground)"/>
+  <g opacity="0.25" fill="#e6d89a">
+    <circle cx="120" cy="170" r="7"/>
+    <circle cx="260" cy="130" r="9"/>
+    <circle cx="440" cy="210" r="8"/>
+    <circle cx="760" cy="180" r="10"/>
+    <circle cx="1110" cy="160" r="9"/>
+    <circle cx="1360" cy="210" r="8"/>
+  </g>
+  <g stroke="#e2e7b8" stroke-width="4" stroke-linecap="round" opacity="0.8">
+    <path d="M100 800 C200 720, 240 740, 330 800 S520 880, 630 820 S820 720, 930 800 S1120 880, 1220 820 S1420 720, 1520 800" fill="none"/>
+    <path d="M70 900 C180 820, 220 840, 330 900 S520 980, 620 920 S820 820, 930 900 S1110 980, 1220 920 S1420 820, 1520 900" fill="none"/>
+  </g>
+  <g fill="#f2c77d" opacity="0.9">
+    <ellipse cx="250" cy="760" rx="10" ry="24"/>
+    <ellipse cx="480" cy="780" rx="12" ry="28"/>
+    <ellipse cx="710" cy="760" rx="11" ry="26"/>
+    <ellipse cx="980" cy="790" rx="13" ry="30"/>
+    <ellipse cx="1220" cy="770" rx="12" ry="28"/>
+  </g>
+</svg>

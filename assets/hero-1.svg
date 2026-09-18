@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-label="Millet crop field illustration">
+  <defs>
+    <linearGradient id="bg1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#e8f0c4"/>
+      <stop offset="100%" stop-color="#a9c58d"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" fill="url(#bg1)"/>
+  <g fill="#3a6b4b" opacity="0.92">
+    <path d="M125 420 C150 280, 155 210, 190 130 C210 150, 245 180, 260 220 C280 200, 312 170, 326 120 C350 200, 385 260, 410 420 Z"/>
+    <path d="M340 430 C370 270, 375 200, 420 120 C440 140, 485 170, 500 220 C520 200, 558 170, 576 120 C605 200, 645 260, 670 430 Z"/>
+    <path d="M620 440 C660 290, 660 205, 706 126 C734 150, 770 180, 788 230 C812 205, 844 172, 870 126 C886 200, 888 255, 900 440 Z"/>
+  </g>
+  <g fill="#f2c77d" opacity="0.92">
+    <ellipse cx="190" cy="470" rx="18" ry="40"/>
+    <ellipse cx="430" cy="490" rx="22" ry="48"/>
+    <ellipse cx="710" cy="475" rx="20" ry="42"/>
+  </g>
+  <g fill="#f1f7d8" opacity="0.9">
+    <circle cx="90" cy="120" r="16"/>
+    <circle cx="700" cy="100" r="14"/>
+    <circle cx="830" cy="150" r="12"/>
+  </g>
+</svg>

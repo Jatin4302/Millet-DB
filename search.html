@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Search SSR marker and transcriptomics records in EleuSSR, the Finger millet simple sequence repeat database.">
+    <title>Search Database | EleuSSR</title>
+    <link rel="stylesheet" href="css/style.css?v=20260914-final14">
+    <link rel="icon" href="assets/logo-transparent.png" type="image/png">
+</head>
+<body class="page-search">
+    <header class="site-header">
+        <div class="brand-logos" aria-label="EleuSSR partner logos">
+            <img src="assets/logo-transparent.png" alt="EleuSSR logo">
+            <span class="brand-divider" aria-hidden="true"></span>
+            <img src="assets/Logo2.png" alt="RPCAU logo">
+        </div>
+        <div class="brand-banner">
+            <a class="brand" href="home.html" aria-label="ELEUSSR home"><h1>ELEUSSR</h1><p>Finger Millet Simple Sequence Repeat Database</p></a>
+            <a class="header-action" href="search.html"><span aria-hidden="true"></span>Explore database <span aria-hidden="true">&#8599;</span></a>
+        </div>
+        <div class="nav-row">
+            <nav class="site-nav" aria-label="Primary navigation">
+                <a href="home.html"><span class="material-symbols-outlined nav-icon" aria-hidden="true">home</span>Home</a><a class="active" href="search.html"><span class="material-symbols-outlined nav-icon" aria-hidden="true">search</span>Database</a><div class="nav-tool-dropdown"><a href="resources.html" aria-haspopup="true"><span class="material-symbols-outlined nav-icon" aria-hidden="true">build</span>Research tools</a><div class="nav-tool-menu" aria-label="Toolbox links"><a href="resources.html#tool-blast">NCBI BLAST</a><a href="resources.html#tool-jbrowse">JBrowse</a><a href="resources.html#tool-phytosome">Phytosome</a><a href="resources.html#tool-pfam">Pfam</a><a href="resources.html#tool-np-conversion">N-P conversion tool</a><a href="resources.html#tool-wolf-psort">Wolf PSORT</a><a href="resources.html#tool-epcr">ePCR</a><a href="resources.html#tool-misa">MISA</a><a href="resources.html#tool-kegg">KEGG</a><a href="resources.html#tool-mapman">MapMan</a><a href="resources.html#tool-chopchop">ChopChop</a></div></div><a href="about.html"><span class="material-symbols-outlined nav-icon" aria-hidden="true">groups</span>About</a><a href="contact.html"><span class="material-symbols-outlined nav-icon" aria-hidden="true">mail</span>Contact</a>
+            </nav>
+            <div class="accessibility-toolbar" aria-label="Accessibility tools">
+                <div class="font-controls" aria-label="Text size controls">
+                    <button type="button" class="font-control" data-font-size="small" aria-label="Decrease text size" aria-pressed="false">A-</button>
+                    <button type="button" class="font-control is-active" data-font-size="normal" aria-label="Reset text size" aria-pressed="true">A</button>
+                    <button type="button" class="font-control" data-font-size="large" aria-label="Increase text size" aria-pressed="false">A+</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main id="top" class="page-main search-page-main">
+        <section class="page-hero"><p class="eyebrow"><span></span> Genomic resources</p><h1>Search the finger millet database.</h1><p>Search genes, markers, sequences and curated biological resources, then download matching records for downstream analysis.</p></section>
+        <section class="search-section standalone-search" id="search" aria-labelledby="search-title">
+            <div class="section-heading"><h2 id="search-title">Find a record</h2><p>Choose a dataset and enter one or more filters.</p></div>
+            <div class="query-shortcuts" aria-label="Sample searches"><span>Try a sample:</span><button type="button" data-query="millet">Eleusine coracana</button><button type="button" data-query="gene">OsGene001</button></div>
+            <form class="search-form" id="searchForm">
+                <div class="form-row"><label for="dataset">Dataset</label><select id="dataset" name="dataset"><option value="ssr">SSR markers</option><option value="transcriptomics">Transcriptomics</option></select></div>
+                <div class="form-row"><label for="species">Species</label><input id="species" name="species" type="search" placeholder="e.g. Eleusine coracana"></div>
+                <div class="form-row"><label for="gene_id">Gene ID</label><input id="gene_id" name="gene_id" type="search" placeholder="e.g. OsGene001"></div>
+                <div class="form-row ssr-filter"><label for="chromosome">Chromosome</label><input id="chromosome" name="chromosome" type="search" placeholder="e.g. Chr1"></div>
+                <div class="form-row ssr-filter"><label for="motif">Motif</label><input id="motif" name="motif" type="search" placeholder="e.g. AT"></div>
+                <div class="form-row transcriptomics-filter"><label for="tissue">Tissue</label><input id="tissue" name="tissue" type="search" placeholder="e.g. leaf"></div>
+                <div class="form-row transcriptomics-filter"><label for="condition_name">Condition</label><input id="condition_name" name="condition_name" type="search" placeholder="e.g. drought stress"></div>
+                <button class="search-button" type="submit"><span class="material-symbols-outlined ui-icon" aria-hidden="true">search</span>Search records <span aria-hidden="true">→</span></button>
+            </form>
+            <div id="resultsArea" aria-live="polite"></div>
+        </section>
+    </main>
+    <footer><span>EleuSSR · Finger millet Simple Sequence Repeat Database</span><span><a href="about.html">Built for Finger millet improvement research</a></span></footer>
+    <a class="go-top" href="#top" aria-label="Go to top"><span class="material-symbols-outlined" aria-hidden="true">arrow_upward</span></a>
+    <script src="js/script.js?v=20260914-final12"></script>
+</body>
+</html>
